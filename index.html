@@ -189,7 +189,7 @@ Maybe this project will be fun after all.
 
 * [[A few months later…|s1endgame]]</tw-passagedata><tw-passagedata pid="13" name="talktoteam_messenger" tags="" position="783,550" size="100,100">&lt;&lt;if $energy &lt;= 0&gt;&gt;You would love to catch up with the person who broke you this news, but you don&#39;t have the energy left in you.
 
-* [[Clock out for the day|clockout]]&lt;&lt;else&gt;&gt;&lt;&lt;set $energy to $energy - 1&gt;&gt;&lt;&lt;set $talktoteam_messenger_investigated to &quot;true&quot;&gt;&gt;&lt;&lt;set $morale to $morale + 2&gt;&gt;You make your way over to the messenger, who waves at you. &quot;Hi,&quot; you say.
+* [[Clock out for the day|clockout]]&lt;&lt;else&gt;&gt;&lt;&lt;set $energy to $energy - 2&gt;&gt;&lt;&lt;set $talktoteam_messenger_investigated to &quot;true&quot;&gt;&gt;&lt;&lt;set $morale to $morale + 2&gt;&gt;You make your way over to the messenger, who waves at you. &quot;Hi,&quot; you say.
 
 &lt;&lt;if $hstandbeyond_investigated eq &quot;true&quot; or $talktoteam_investigated eq &quot;true&quot;&gt;&gt;&quot;You look like you&#39;re settling in already,&quot; the messenger observes.&lt;&lt;else&gt;&gt;&quot;Settling in?&quot; the messenger inquires.
 
@@ -205,7 +205,7 @@ She gives you an exasperated look. &quot;Yes, and they&#39;re expensive, so…&q
 
 * &lt;&lt;if $talktoteam_intern_investigated eq &quot;true&quot;&gt;&gt;[[&quot;Faster, better, cheaper.&quot;|talktoteam_messenger2]]&lt;&lt;else&gt;&gt;[[&quot;Yes…?&quot;|talktoteam_messenger2]]&lt;&lt;/if&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="talktoteam_headofengineering" tags="" position="911,549" size="100,100">&lt;&lt;if $energy &lt;= 0&gt;&gt;You would love to, but you don&#39;t have the energy left in you.
 
-* [[Clock out for the day|clockout]]&lt;&lt;else&gt;&gt;&lt;&lt;set $energy to $energy - 1&gt;&gt;&lt;&lt;set $morale to $morale + 5&gt;&gt;&lt;&lt;set $talktoteam_headofengineering_investigated to &quot;true&quot;&gt;&gt;You make your way over to the head of engineering.&lt;&lt;if $hstandbeyond_investigated eq &quot;true&quot;&gt;&gt; You were right — they //are// looking at the HST &amp; Beyond report.&lt;&lt;/if&gt;&gt;
+* [[Clock out for the day|clockout]]&lt;&lt;else&gt;&gt;&lt;&lt;set $energy to $energy - 2&gt;&gt;&lt;&lt;set $morale to $morale + 5&gt;&gt;&lt;&lt;set $talktoteam_headofengineering_investigated to &quot;true&quot;&gt;&gt;You make your way over to the head of engineering.&lt;&lt;if $hstandbeyond_investigated eq &quot;true&quot;&gt;&gt; You were right — they //are// looking at the HST &amp; Beyond report.&lt;&lt;/if&gt;&gt;
 
 They look up. &quot;Can I help — oh,&quot; they say, breaking off. &quot;You&#39;re the new head of the project, aren&#39;t you?&quot;
 
